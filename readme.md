@@ -87,7 +87,25 @@ cp .env.example .env            # then add your values
 
 The fine-tuned weights are too large for GitHub, so they are hosted on Hugging Face:
 
-**[your-username/your-model-name](https://huggingface.co/your-username/your-model-name)**
+## Model
+The fine-tuned model (T5-small, about 231 MB) is too large for GitHub, so it is hosted on Google Drive.
+
+1. Download the model folder here: [Download my_summarizer_model](https://drive.google.com/drive/folders/1dyWzdcqitRceKhTcto2O7Uns7rmGK1cl?usp=sharing)
+2. If Drive gives you a zip file, unzip it.
+3. Place the folder named `my_summarizer_model` in the same folder as `app.py`, so the project looks like this:
+
+```
+text-summarizer/
+├── app.py
+├── index.html
+├── my_summarizer_model/
+│   ├── config.json
+│   ├── model.safetensors
+│   └── ...
+└── requirements.txt
+```
+
+4. Run the app (see the next section).
 
 The backend downloads the model automatically on first run.
 
