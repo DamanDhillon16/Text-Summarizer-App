@@ -160,7 +160,6 @@ Training was done on Google Colab (notebook in `notebooks/training.ipynb`).
 | ROUGE-2 | 19.04 |
 | ROUGE-L | 34.70 |
 
-Sample outputs and training plots are in `results/`.
 
 ## Future Improvements
 
@@ -168,7 +167,7 @@ Sample outputs and training plots are in `results/`.
 - Add retrieval (RAG) for summarizing across multiple documents
 - Deploy backend and frontend to the cloud
 - Add summary length and style controls
-
+  
 ## Author
 
 **[Daman Dhillon]** | [LinkedIn](https://www.linkedin.com/in/daman-jeet-kaur-dhillon-324191312/) | [GitHub](https://github.com/DamanDhillon16)
