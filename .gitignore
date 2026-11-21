@@ -1,0 +1,68 @@
+# ---------- Secrets (NEVER upload) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# ---------- Model weights (too large for GitHub) ----------
+my_summarizer_model/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# ---------- Python cache ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Jupyter / Colab ----------
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ---------- Packaging / build ----------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Testing / tooling caches ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- Hugging Face / training artifacts ----------
+.cache/
+huggingface/
+wandb/
+runs/
+logs/
+checkpoint-*/
+
+# ---------- Data (SAMSum can be re-downloaded from Hugging Face) ----------
+data/
+*.csv
+*.parquet
+
+# ---------- IDE / OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+requests
+python-dotenv
+transformers
+torch
+sentencepiece
+accelerate
