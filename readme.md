@@ -2,7 +2,9 @@
 
 A transformer-based app that summarizes chat conversations. The model was fine-tuned on the **SAMSum** dialogue dataset using Google Colab, served through a **FastAPI** backend, and used through a **Streamlit** interface.
 
-> **Demo:** [add link or GIF here]
+> **Demo:** <img width="1907" height="872" alt="Screenshot 2026-11-22 004856" src="https://github.com/user-attachments/assets/e07bcfce-4134-4794-99c2-810068cd2bef" />
+<img width="1007" height="771" alt="Screenshot 2026-11-22 004943" src="https://github.com/user-attachments/assets/1abacbfe-dc58-42d3-bff3-2b9f6f528d23" />
+<img width="1101" height="812" alt="Screenshot 2026-11-22 004956" src="https://github.com/user-attachments/assets/afe52281-54ab-42fb-b3b9-74ca83364d7e" />
 
 ## Features
 
