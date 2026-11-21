@@ -153,4 +153,4 @@ Sample outputs and training plots are in `results/`.
 
 ## Author
 
-**[Your Name]** | [LinkedIn](https://www.linkedin.com/in/daman-jeet-kaur-dhillon-324191312/) | [GitHub](https://github.com/DamanDhillon16)
+**[Daman Dhillon]** | [LinkedIn](https://www.linkedin.com/in/daman-jeet-kaur-dhillon-324191312/) | [GitHub](https://github.com/DamanDhillon16)
